@@ -1,5 +1,5 @@
 {% set name = "typhoeus" %}
-{% set version = "1.3.1" %}
+{% set version = "1.4.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 257e7163d50bed15e52c3c25bde890ea3ad854f3bd2e3fd16ce0b216c342d132
+  sha256: fff9880d5dc35950e7706cf132fd297f377c049101794be1cf01c95567f642d4
 
 build:
   noarch: generic
